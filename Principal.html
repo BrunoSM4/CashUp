@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashUp | Despesasas</title>
+    <link rel="stylesheet" href="PrincipalStyle.css">
+</head>
+<header>
+    <nav>
+        <div class="navGeral">
+            <img class="logo" src="images/cashupLogo.png" alt="Logo">
+
+            <div class="salario">
+                <p class="visorSalario">💰R$</p>
+                <p id="salario" class="visorSalario">R$ 0,00</p>
+                <button class="btn-primary" onclick="abrirModalSalario()">+ Salário</button>
+            </div>
+        </div>
+    </nav>
+</header>
+<body >
+    <div class="container">
+        <h1>📅Despesas do mês</h1>
+        <button class="btn-primary" onclick="abrirModal()">+ Adicionar</button>
+    </div>   
+
+    <div id="modalSalario" class="modal hidden">
+        <div class="modal-content">
+            <h2 class="tituloModal">Valor para as despesas</h2>
+            <label class="sutituloModal" for="inputSalario">Salário</label>
+            <input type="number" id="inputSalario" class="inputStyle" placeholder="Digite seu salário" />
+            <div class="modal-buttons">
+                <button class="btn-cancel" onclick="fecharModalSalario()">Cancelar</button>
+                <button class="btn-save" onclick="salvarSalario()">Salvar</button>
+            </div>
+            <p class="titleDica">Dica:</p>
+            <div id="dicaSalario" class="dica-financeira"></div>
+        </div>
+    </div>
+
+
+  <div id="meuModal" class="modal">
+    <div class="modal-content">
+      <h2 class="tituloModal">Nova despesa</h2>
+      <label class="sutituloModal"for="nomeItem">Despesa</label>
+      <input class="inputStyle" type="text" id="nomeItem" placeholder="Digite o nome">
+
+      <label class="sutituloModal" for="valorItem">Valor</label>
+      <input class="inputStyle" type="number" id="valorItem" placeholder="Digite o valor">
+
+      <div class="modal-buttons">
+        <button class="btn-cancel" onclick="fecharModal()">Cancelar</button>
+        <button class="btn-save" onclick="salvarItem()">Salvar</button>
+      </div>
+      <p class="titleDica">Dica:</p>
+      <div id="dicaItem" class="dica-financeira"></div>
+    </div>
+  </div>
+  
+  <div class="despesas">
+    <ul id="listaItens"></ul>
+  </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

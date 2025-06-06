@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashUp | Home</title>
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
+<header>
+    <nav>
+        <img class="logo" src="images/cashupLogo.png" alt="Logo">
+    </nav>
+</header>
+<body >
+    <div class="container">
+        <div class="containerBox">
+            <div class="containerInput">
+                <h1 class="title">Entrar</h1>
+
+                <span class="erro" id="erro"></span>
+
+                <label for="logEmail" class="labelStyle">E-mail</label>
+                <input type="email"  placeholder="E-mail" name="logEmail" id="logEmail" class="inputStyle">
+
+                <label for="logSenha" class="labelStyle">Senha</label>
+                <input type="password"  placeholder="Senha" name="logSenha" id="logSenha" class="inputStyle">
+                
+
+                <div class="buttonContainer">
+                    <div >
+                        <a class="bEntrar" onclick="login()">
+                            <span>Entrar</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div clas="imgPrincipal">
+            <img src="images/cashuplogin.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

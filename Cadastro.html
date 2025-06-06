@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashUp | Cadastro</title>
+    <link rel="stylesheet" href="CadStyle.css">
+</head>
+<header>
+    <nav>
+        <img class="logo" src="images/cashupLogo.png" alt="Logo">
+    </nav>
+</header>
+<body >
+    <div class="container">
+            <div class="containerInput">
+                <h1 class="title">Cadastro</h1>
+                <label for="txNome" class="labelStyle">Nome*</label>
+                <input type="text" placeholder="Digite o seu nome" name="txNome" id="txNome" class="inputStyle">
+                <p class="erro" id="erroNome"></p>
+
+                <label for="txSobrenome" class="labelStyle">Sobrenome*</label>
+                <input type="text" placeholder="Digite o seu sobrenome" name="txSobrenome" id="txSobrenome" class="inputStyle">
+                <p class="erro" id="erroSobrenome"></p>
+
+                <label for="txEmail" class="labelStyle">E-mail*</label>
+                <input type="email" placeholder="E-mail" name="txEmail" id="txEmail" class="inputStyle">
+                <p class="erro" id="erroEmail"></p>
+
+                <label for="txConfEmail" class="labelStyle">Confirme seu e-mail*</label>
+                <input type="email" placeholder="Confirme seu e-mail" name="txConfEmail" id="txConfEmail" class="inputStyle">
+                <p class="erro" id="erroConfEmail"></p>
+
+                <label for="txSenha" class="labelStyle">Senha*</label>
+                <input type="password" placeholder="Senha" name="txSenha" id="txSenha" class="inputStyle">
+                <p class="erro" id="erroSenha"></p>
+
+                <label for="txConfSenha" class="labelStyle">Confirme sua senha*</label>
+                <input type="password" placeholder="Confirme sua senha" name="txConfSenha" id="txConfSenha" class="inputStyle">
+                <p class="erro" id="erroConfSenha"></p>
+
+                 <div class="buttonContainer">
+                <div >
+                    <a class="bCadastrar" onclick="cadastrar()">
+                        <span>Cadastrar</span>
+                    </a>
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
