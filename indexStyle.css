@@ -87,7 +87,9 @@ body {
 
 
 .imgPrincipal {
-   aspect-ratio: auto 700 / 664;
+    max-width:565px;
+    height: auto;
+    margin-left: 20px;
 }
 
 
