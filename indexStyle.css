@@ -87,7 +87,7 @@ body {
 
 
 .imgPrincipal img {
-    max-width: 100%;
-    height: auto;
+    max-width: 80%;
+    height: 80%;
     margin-left: 20px;
 }
