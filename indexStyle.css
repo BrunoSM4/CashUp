@@ -87,9 +87,7 @@ body {
 
 
 .imgPrincipal {
-    flex: 1;
-    min-width: 250px;
-    max-width: 300px;
+   aspect-ratio: auto 700 / 664;
 }
 
 
