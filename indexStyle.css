@@ -86,10 +86,15 @@ body {
 }
 
 
-.imgPrincipal img {
+.containerImgPrincipal {
     max-width:565px;
     height: auto;
     margin-left: 20px;
+}
+
+.imgPrincipal{
+    max-width:565px;
+    height: auto;
 }
 
 
