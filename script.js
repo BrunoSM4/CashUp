@@ -100,7 +100,7 @@ function getIconePorNome(nome) {
   const n = nome.toLowerCase();
   if (n.includes("mercado") || n.includes("supermercado")) return "🛒";
   if (n.includes("uber") || n.includes("transporte")) return "🚗";
-  if (n.includes("internet") || n.includes("wifi")) return "🌐";
+  if (n.includes("internet") || n.includes("wi-fi")) return "🌐";
   if (n.includes("luz") || n.includes("energia")) return "💡";
   if (n.includes("água")) return "🚿";
   if (n.includes("aluguel") || n.includes("aluguel")) return "🏠";
