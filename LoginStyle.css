@@ -78,28 +78,23 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
-  .buttonContainer{
-    margin-top: 5%;
-    margin-right: 80%;
-  }
 
   .bEntrar{
-    display: inline-block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 15px 200px;
+   display: block;
+    width: 100%;
+    padding: 18px 16px;
+    margin-bottom: 5%;
     background-color: #03BE64;
+    border: none;
     border-radius: 30px;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    width: 100%;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
   }
 
   .erro{
@@ -110,13 +105,13 @@ body {
   }
 
 .containerImgPrincipal {
-    max-width:585px;
+    max-width:600px;
     height: auto;
     margin-left: 20px;
 }
 
 .imgPrincipal{
-    max-width:585px;
+    max-width:600px;
     height: auto;
 }
 
