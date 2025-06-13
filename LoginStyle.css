@@ -109,6 +109,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+.containerImgPrincipal {
+    max-width:580px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.imgPrincipal{
+    max-width:580px;
+    height: auto;
+}
   
  
   
