@@ -74,7 +74,7 @@ body {
     padding: 40px;
     width: 100%;
     max-width: 500px;
-    min-height: 500px; /* <-- altura mínima maior */
+    min-height: 400px; /* <-- altura mínima maior */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
