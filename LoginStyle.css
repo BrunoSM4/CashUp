@@ -108,15 +108,15 @@ body {
     line-height: 0.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+
 .containerImgPrincipal {
-    max-width:580px;
+    max-width:585px;
     height: auto;
     margin-left: 20px;
 }
 
 .imgPrincipal{
-    max-width:580px;
+    max-width:585px;
     height: auto;
 }
 
