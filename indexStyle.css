@@ -28,150 +28,66 @@ body {
 .firstTitleHome {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 0.1;
 }
 
 .secondTitleHome {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 0.1;
 }
 
 .legendaHome {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .buttonContainer {
-    gap: 10%;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    gap: 20px; /* funciona agora! */
 }
 
 .bCadastrar {
-    display: inline-block;
     padding: 10px 20px;
     background-color: #03BE64;
     border-radius: 15px;
     border: 2px white solid;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    width: 100%;
+    width: 70%;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-color 0.3s ease;
 }
 
 .bEntrar {
-    display: inline-block;
     padding: 10px 20px;
     background-color: white;
     border-radius: 15px;
     color: #03BE64;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    width: 100%;
+    width: 70%;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-color 0.3s ease;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 20px 40px;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.504);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
-}
-
-.content h2 {
-    margin-bottom: 20px;
-}
-
-.botoesGeral {
-    display: flex;
-    gap: 25px;
-}
-
-.botao {
-    padding: 20px 40px;
-    border-radius: 8px;
-    border: none;
-    background-color: transparent;
-}
-
-.inicioWrape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.inicio {
-    margin-top: 10px;
-    padding: 15px 80px;
-    border-radius: 8px;
-    border: none;
-    background-color: rgb(15, 139, 36);
-    color: white;
-    font: bold 14px arial;
-    transition: background-color 0.3s ease;
-}
-
-.inicio:hover {
-    background-color: rgb(9, 84, 21);
-}
-
-.comemoracao {
-    font: bold 25px arial;
-    text-align: center;
-}
-
-.placar {
-    text-align: center;
-    gap: 20px;
-    font: normal 18px arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.resp {
-    font: normal 18px arial;
-    text-align: center;
-}
-
-.incentivo {
-    font: normal 18px arial;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.imgPrincipal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .imgPrincipal img {
-    max-width: 500px;
+    max-width: 780px;
     width: 100%;
     height: auto;
     margin-left: 20px;
